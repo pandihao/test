@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+  },
+  // "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue","src/**/*"],
+  // "include": [
+  //   "src/**/*.ts",
+  //   "src/**/*.tsx",
+  //   "src/**/*.vue"
+  // ],
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
